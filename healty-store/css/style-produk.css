@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #eaeaea;
+    color: #4f4f4f;
+    font-size: 14px;
+}
+
+/*Untuk Nav*/
+#navBarSearchForm{
+    font-size: 12px;
+}
+
+nav ul .fas{
+    color: white; 
+    font-size: 16px;
+}
+
+@media screen and (min-width:994px){
+    #navBarSearchForm{
+        width: 350px;;
+    }
+}
+
+@media screen and (max-width:994px){
+    .navbar-nav{
+        text-align: center;
+    }
+}
+
+nav{
+    background: rgb(0, 108, 167);
+}
+
+nav .fas{
+    color: rgb(0, 108, 167);
+}
+
+/*Untuk Container*/
+.cont-bag{
+    background-color: #fff;
+}
+
+/*Row*/
+.row-produk{
+    margin: 0px;
+    padding: 5px;
+    padding-top: 16px;
+}
+
+.row-produk #big{
+    width: 450px;
+    border-radius: 5px;
+    border: 1px solid #dedede;  
+}
+
+.row-produk #small{
+    width: 85px;
+    border-radius: 5px;
+    border: 1px solid #dedede;  
+}
+
+.row-produk #small:hover{
+    border: 1px solid rgb(0, 166, 255);
+}
+
+/*Line Name*/
+.line-name{
+    border-bottom: 3px solid rgb(0, 166, 255);
+    margin-top: 10p;
+    margin-bottom: 25px;
+}
+
+/*Qty*/

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #eaeaea;
+    color: #4f4f4f;
+    font-size: 14px;
+}
+
+/*Untuk Nav*/
+#navBarSearchForm{
+    font-size: 12px;
+}
+
+nav ul .fas{
+    color: white; 
+    font-size: 16px;
+}
+
+@media screen and (min-width:994px){
+    #navBarSearchForm{
+        width: 350px;;
+    }
+}
+
+@media screen and (max-width:994px){
+    .navbar-nav{
+        text-align: center;
+    }
+}
+
+nav{
+    background: rgb(0, 108, 167);
+}
+
+nav .fas{
+    color: rgb(0, 108, 167);
+}
+
+/*Untuk Container*/
+.cont-bag{
+    background-color: #fff;
+}
+
+/*Row Keranjang*/
+.row-produk{
+    background-color: #fff;
+    margin: 0px;
+    padding: 5px;
+    padding-top: 16px;
+}
+
+/*Gambar Keranjang*/
+.img-keranjang{
+    width: 40px;
+}
+
+/*Table*/
+.t-head{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    background-color: #0d6efd !important;
+    color: #fff;
+    border-bottom: 2px solid rgb(126, 126, 126) !important;
+}
+
+.t{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+#checkot{
+    width: 40%;
+}
